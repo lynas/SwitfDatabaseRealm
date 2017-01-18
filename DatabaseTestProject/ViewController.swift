@@ -87,9 +87,10 @@ class ViewController: UIViewController {
     }
     
     @IBAction func btnList(_ sender: UIButton) {
+        //let personList = realm.objects(Person.self).sorted(byKeyPath:ascending: "id")
         do {
             let realm = try Realm()
-            let personList = realm.objects(Person.self)
+            let personList = realm.objects(Person.self).sorted(byProperty: "id", ascending: false)
             print(personList.count)
             print(personList)
         } catch {
