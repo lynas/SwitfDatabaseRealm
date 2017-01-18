@@ -74,6 +74,15 @@ class ViewController: UIViewController {
     }
     
     @IBAction func btnDelete(_ sender: UIButton) {
+        do {
+            let realm = try Realm()
+            let person = realm.objects(Person.self).filter("id = \(textId.text!)").first
+            try realm.write {
+                realm.delete(person!)
+            }
+        } catch {
+            print(error.localizedDescription)
+        }
         
     }
     
