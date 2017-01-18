@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		30001DADA8DB13F408DA1B8F /* Pods_DatabaseTestProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A552A74CF55F6345EACE571E /* Pods_DatabaseTestProject.framework */; };
+		FC2BCDEB1E2F8140003704A8 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2BCDEA1E2F8140003704A8 /* Person.swift */; };
 		FC4A4D111E2F7E3900D461E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4A4D101E2F7E3900D461E1 /* AppDelegate.swift */; };
 		FC4A4D131E2F7E3900D461E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4A4D121E2F7E3900D461E1 /* ViewController.swift */; };
 		FC4A4D161E2F7E3900D461E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC4A4D141E2F7E3900D461E1 /* Main.storyboard */; };
@@ -19,6 +20,7 @@
 		7C049E444E72154071AB182F /* Pods-DatabaseTestProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DatabaseTestProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DatabaseTestProject/Pods-DatabaseTestProject.debug.xcconfig"; sourceTree = "<group>"; };
 		A552A74CF55F6345EACE571E /* Pods_DatabaseTestProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DatabaseTestProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CADBB5F57C69D113B5326968 /* Pods-DatabaseTestProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DatabaseTestProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-DatabaseTestProject/Pods-DatabaseTestProject.release.xcconfig"; sourceTree = "<group>"; };
+		FC2BCDEA1E2F8140003704A8 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		FC4A4D0D1E2F7E3900D461E1 /* DatabaseTestProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DatabaseTestProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC4A4D101E2F7E3900D461E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FC4A4D121E2F7E3900D461E1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -78,12 +80,13 @@
 		FC4A4D0F1E2F7E3900D461E1 /* DatabaseTestProject */ = {
 			isa = PBXGroup;
 			children = (
+				FC4A4D1C1E2F7E3900D461E1 /* Info.plist */,
 				FC4A4D101E2F7E3900D461E1 /* AppDelegate.swift */,
+				FC2BCDEA1E2F8140003704A8 /* Person.swift */,
 				FC4A4D121E2F7E3900D461E1 /* ViewController.swift */,
-				FC4A4D141E2F7E3900D461E1 /* Main.storyboard */,
 				FC4A4D171E2F7E3900D461E1 /* Assets.xcassets */,
 				FC4A4D191E2F7E3900D461E1 /* LaunchScreen.storyboard */,
-				FC4A4D1C1E2F7E3900D461E1 /* Info.plist */,
+				FC4A4D141E2F7E3900D461E1 /* Main.storyboard */,
 			);
 			path = DatabaseTestProject;
 			sourceTree = "<group>";
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC2BCDEB1E2F8140003704A8 /* Person.swift in Sources */,
 				FC4A4D131E2F7E3900D461E1 /* ViewController.swift in Sources */,
 				FC4A4D111E2F7E3900D461E1 /* AppDelegate.swift in Sources */,
 			);
@@ -379,6 +383,7 @@
 				FC4A4D211E2F7E3900D461E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
