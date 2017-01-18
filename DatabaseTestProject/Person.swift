@@ -13,6 +13,7 @@ class Person : Object {
     dynamic var id : Int64 = 0
     dynamic var name : String = ""
     dynamic var age : Int = 0
+    dynamic var gender : String = ""
     
     override class func primaryKey() -> String? {
         return "id"
